@@ -1,0 +1,10 @@
+{
+	"application": {{appsmith.URL.queryParams.application}},
+	"type": "Recertification",
+	"employment": {
+	"isemployed": {{RadioGroup1Copy1.selectedOptionValue}},
+	"isregistered": {{RadioGroup2Copy1.selectedOptionValue}}
+},
+"note": {{Input1CopyCopy.text}},
+"submitted": false
+}

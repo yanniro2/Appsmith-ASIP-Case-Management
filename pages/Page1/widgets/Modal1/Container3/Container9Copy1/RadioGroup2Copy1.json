@@ -1,0 +1,85 @@
+{
+  "accentColor": "#3b82f6",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 19,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{getapp.data.application[0].application.employmentreq.isregistered}}",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{RadioGroup1Copy1.selectedOptionValue===\"No\"}}",
+  "key": "tqqpu337sk",
+  "label": "Is {{getapp.data.application[0].application.qualifyingperson.name}} Currently Enrolled with an Employment Agency?",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 21,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 36,
+  "mobileTopRow": 15,
+  "options": [
+    {
+      "label": "Yes",
+      "value": "Y"
+    },
+    {
+      "label": "No",
+      "value": "N"
+    },
+    {
+      "label": "County Not Serviced by EA",
+      "value": "NS"
+    },
+    {
+      "label": "More than 2 hour round trip from EA",
+      "value": "TF"
+    }
+  ],
+  "originalBottomRow": 19,
+  "originalTopRow": 11,
+  "parentColumnSpace": 18.53125,
+  "parentId": "hbizumvphe",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "choice"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 11,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "5sf306iuy3",
+  "widgetName": "RadioGroup2Copy1"
+}

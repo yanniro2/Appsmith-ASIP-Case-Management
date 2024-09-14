@@ -1,0 +1,62 @@
+{
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 523,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "displayName": "Iframe",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "source"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.99e0e6020fd949e060892f1c6a291b5a.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "sfp9gn05da",
+  "leftColumn": 0,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 523,
+  "originalTopRow": 144,
+  "parentColumnSpace": 10.8759765625,
+  "parentId": "zaow2v2yp8",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 39,
+  "searchTags": [
+    "embed"
+  ],
+  "source": "https://app.appsmith.com/app/application-management-view-hau-v2/page1-66566183b0f496620532399b?application={{appsmith.URL.queryParams.application}}\n",
+  "tags": [
+    "Display"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.542dc4e979f061c70c19af83e2460c35.svg",
+  "topRow": 144,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "v4pdgktrbf",
+  "widgetName": "Iframe1"
+}

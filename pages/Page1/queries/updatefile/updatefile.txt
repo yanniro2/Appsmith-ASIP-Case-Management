@@ -1,0 +1,8 @@
+{"application":{
+	"id": "{{ appsmith.URL.queryParams.application }}",
+documents:[{
+	"label":"{{Input10.text}}",
+	"value":"{{uploaddoc.data.url.split("/").pop()}}"
+}]
+}
+}

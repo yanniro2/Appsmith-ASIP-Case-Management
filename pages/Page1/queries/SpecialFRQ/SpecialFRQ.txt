@@ -1,0 +1,9 @@
+{
+	"caseid": {{appsmith.URL.queryParams.application}},
+	"primaryapplicant": {{getapp.data.application[0].application.qualifyingperson.name}},
+	"type": {{Select1.selectedOptionLabel}},
+	"vendor": {{Table2.selectedRow}},
+	"payment_amount": {{Special_Payment_Amount.value}},
+	"memo": {{Special_Payment_Memo.text}},
+	casenote: {{Special_Payment_Case_Note.text}}
+}

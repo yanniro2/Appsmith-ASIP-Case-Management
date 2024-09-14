@@ -1,0 +1,12 @@
+{
+	"application": {{appsmith.URL.queryParams.application}},
+	"type": "Recertification",
+	"primaryapplicant": "{{getapp.data.application[0].application.qualifyingperson}}",
+	"employment": {
+	"isemployed": {{RadioGroup1Copy1.selectedOptionValue}},
+	"isregistered": {{RadioGroup2Copy1.selectedOptionValue}}
+},
+"note": {{Input1CopyCopy.text}},
+"submitted": true,
+"supportingdoc": "{{uploadrecert.data.url.split("/").pop()}}"
+}

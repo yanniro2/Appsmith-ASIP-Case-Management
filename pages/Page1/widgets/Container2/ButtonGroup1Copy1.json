@@ -1,0 +1,122 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 86,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButtonwaip0ujg8q.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonsipkf7dfqf.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonmka5ncbyw6.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonl61bdo6kuc.buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButtonwaip0ujg8q.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButtonl61bdo6kuc": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonl61bdo6kuc",
+      "index": 3,
+      "isDisabled": true,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Closeout Letter",
+      "menuItems": {},
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "cveurk09jv"
+    },
+    "groupButtonmka5ncbyw6": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonmka5ncbyw6",
+      "index": 2,
+      "isDisabled": true,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Denial Letter",
+      "menuItems": {},
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "swk8zwhxwa"
+    },
+    "groupButtonsipkf7dfqf": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonsipkf7dfqf",
+      "index": 1,
+      "isDisabled": true,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Award Letter",
+      "menuItems": {},
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "70pp5o3t2o"
+    },
+    "groupButtonwaip0ujg8q": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonwaip0ujg8q",
+      "index": 0,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Consent Form",
+      "menuItems": {},
+      "onClick": "{{navigateTo(consenturl.text, {}, 'NEW_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "pulbt6ushh"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5vclea21ej",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 69,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 65,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 86,
+  "originalTopRow": 82,
+  "parentColumnSpace": 19.078125,
+  "parentId": "zaow2v2yp8",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 41,
+  "topRow": 82,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "avgifj12ra",
+  "widgetName": "ButtonGroup1Copy1"
+}

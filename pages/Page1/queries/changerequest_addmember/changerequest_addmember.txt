@@ -1,0 +1,6 @@
+{
+	"application": {{appsmith.URL.queryParams.application}},
+	"type": "AddMember",
+	"notes": "{{Input6.text}}",
+	"household": {{household_dataCopy.formData}}
+}

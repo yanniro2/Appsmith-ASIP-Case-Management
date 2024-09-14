@@ -1,0 +1,5 @@
+{
+	"application": {{appsmith.URL.queryParams.application}},
+	"type": "CloseCase",
+	"notes": "{{Input9.text}}"
+}

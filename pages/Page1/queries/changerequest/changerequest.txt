@@ -1,0 +1,4 @@
+{
+	"application": {{appsmith.URL.queryParams.application}},
+	"type": ""
+}

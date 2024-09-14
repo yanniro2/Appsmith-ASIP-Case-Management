@@ -1,0 +1,6 @@
+{
+	"application": {{appsmith.URL.queryParams.application}},
+	"type": "RemoveMember",
+	"notes": "{{Input7.text}}",
+	"household": {{List1.triggeredItem}}
+}

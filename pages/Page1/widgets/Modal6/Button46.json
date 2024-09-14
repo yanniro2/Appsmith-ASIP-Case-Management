@@ -1,0 +1,76 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 84,
+  "boxShadow": "none",
+  "buttonColor": "#22c55e",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.7a418b9e1899a550d7e8f33b48cbde12.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{RadioGroup1.selectedOptionValue === \"N\"}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "wov7k0a88g",
+  "leftColumn": 42,
+  "minWidth": 120,
+  "mobileBottomRow": 67,
+  "mobileLeftColumn": 45,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 63,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onClick": "{{SpecialFRQ.run().then(() => {\n  closeModal(Modal6.name);\n  showAlert('Special Funding Request Submitted', 'success');\n});}}",
+  "originalBottomRow": 84,
+  "originalTopRow": 80,
+  "parentColumnSpace": 9.28125,
+  "parentId": "ssi90iwdj1",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 58,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Submit",
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
+  "topRow": 80,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "x9n953ti47",
+  "widgetName": "Button46"
+}

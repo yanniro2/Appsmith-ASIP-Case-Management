@@ -1,0 +1,27 @@
+{
+	"application": {{appsmith.URL.queryParams.application}},
+	"type": "Housing Change",
+	"notes": "{{Input8.text}}",
+	"housing": {
+	"landlord": {
+	"name": "{{landlordname.text}}",
+	"address": "{{landlordaddress3.text}}",
+	"address2": "{{landlordaddress2.text}}",
+	"phone": {{landlordphone.text}},
+	"email": "{{landlordemail.text}}",
+	"eft": {{landlordeft.isSwitchedOn}},
+	"routing": "{{landlordachroute.text}}",
+	"account": "{{landlordachaccount.text}}"
+},
+ "lease": {
+ "startdate": "{{leasestart.selectedDate}}",
+ "enddate": "{{leaseend.selectedDate}}",
+	 "rent": {{rent.text}},
+ "month2month": {{leasem2m.isSwitchedOn}},
+	 "totaladults": {{leaseadults.text}},
+	 "qualifyingadults": {{leasequaladults.text}},
+	 "leasefile": {{typeof(uploadlease.data) === "object"? uploadlease.data.url.split("/").pop() : ""}}
+}
+},
+"apphousing": {{getapp.data.application[0].application.housing}}
+}
