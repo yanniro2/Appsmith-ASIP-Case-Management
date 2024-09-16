@@ -4,7 +4,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 63,
+  "bottomRow": 62,
   "boxShadow": "none",
   "decimals": 2,
   "defaultCurrencyCode": "USD",
@@ -69,7 +69,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.b14e0307b1b312b9e9ca9580d118af39.svg",
-  "topRow": 56,
+  "topRow": 55,
   "type": "CURRENCY_INPUT_WIDGET",
   "version": 1,
   "widgetId": "gulgcbitbv",
