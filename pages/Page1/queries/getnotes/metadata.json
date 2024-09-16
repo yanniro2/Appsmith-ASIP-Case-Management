@@ -45,7 +45,7 @@
         "key": "headers[0].value"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "getnotes",
     "pageId": "Page1",
     "userSetOnLoad": false
