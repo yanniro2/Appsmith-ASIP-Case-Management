@@ -20,7 +20,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "hideCard": false,
   "iconSVG": "/static/media/icon.c94480439adb48de6883bb496aa5ef7d.svg",
   "isDeprecated": false,
@@ -51,6 +55,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "onOptionChange": "{{vendorSearch.filterUsers();}}",
   "optionLabel": "name",
   "optionValue": "code",
   "parentColumnSpace": 6.9375,
