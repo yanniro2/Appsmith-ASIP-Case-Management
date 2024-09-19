@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 188,
+  "bottomRow": 194,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -765,7 +765,7 @@
               "isVisible": true,
               "label": "Status",
               "labelTextSize": "0.875rem",
-              "options": "[\n  {\n    \"label\": \"US Citizen\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"U4U - Ukrainian - UHP\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"U4U - Non-Ukrainian - UHP\",\n    \"value\": \"RED\"\n  },\n  {\n    \"label\": \"Humanitarian Parolee\",\n    \"value\": \"RED2\"\n  },\n  {\n    \"label\": \"Other\",\n    \"value\": \"RED3\"\n  }\n]",
+              "options": "[\n {\n    \"label\": \"U4U - Ukrainian - UHP\",\n    \"value\": \"GREEN\"\n  },\n\t{\n    \"label\": \"U4U - Non-Ukrainian - UHP\",\n    \"value\": \"RED\"\n  },\n  {\n    \"label\": \"US Citizen\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Humanitarian Parolee\",\n    \"value\": \"RED2\"\n  },\n  {\n    \"label\": \"Other\",\n    \"value\": \"RED3\"\n  }\n]",
               "originalIdentifier": "status",
               "position": 0,
               "serverSideFiltering": false,
@@ -910,7 +910,7 @@
     "Layout"
   ],
   "title": "New Household Member Information",
-  "topRow": 17,
+  "topRow": 23,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": false,
   "version": 1,
