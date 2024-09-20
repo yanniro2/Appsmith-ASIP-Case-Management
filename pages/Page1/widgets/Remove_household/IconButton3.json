@@ -14,6 +14,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "hideCard": false,
   "iconName": "cross",
   "iconSVG": "https://appcdn.appsmith.com/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
@@ -37,7 +42,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{closeModal(Modal2.name);}}",
+  "onClick": "{{closeModal(Remove_household.name);}}",
   "parentId": "o8bgvc3bmu",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
