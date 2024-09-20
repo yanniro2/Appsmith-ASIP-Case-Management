@@ -48,8 +48,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{SpecialFRQ.run().then(() => {\n  closeModal(Modal6.name);\n  showAlert('Special Funding Request Submitted', 'success');\n});}}",
-  "originalBottomRow": 83,
-  "originalTopRow": 79,
+  "originalBottomRow": 84,
+  "originalTopRow": 80,
   "parentColumnSpace": 9.28125,
   "parentId": "ssi90iwdj1",
   "parentRowSpace": 10,
