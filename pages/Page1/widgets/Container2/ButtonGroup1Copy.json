@@ -53,6 +53,9 @@
     },
     {
       "key": "groupButtons.groupButton8h0z8h9s8v.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonxxm3gws2c7.onClick"
     }
   ],
   "groupButtons": {
@@ -158,6 +161,7 @@
       "itemType": "BUTTON",
       "label": "FRM",
       "menuItems": {},
+      "onClick": "{{showModal(FRM_Model.name);}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "8xladtsksm"
