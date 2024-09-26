@@ -28,9 +28,6 @@
     },
     {
       "key": "isDisabled"
-    },
-    {
-      "key": "groupButtons.groupButtonxxm3gws2c7.buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -53,9 +50,6 @@
     },
     {
       "key": "groupButtons.groupButton8h0z8h9s8v.onClick"
-    },
-    {
-      "key": "groupButtons.groupButtonxxm3gws2c7.onClick"
     }
   ],
   "groupButtons": {
@@ -64,7 +58,7 @@
       "buttonType": "SIMPLE",
       "buttonVariant": "filled",
       "id": "groupButton8h0z8h9s8v",
-      "index": 3,
+      "index": 2,
       "isDisabled": false,
       "isSeparator": false,
       "isVisible": true,
@@ -80,7 +74,7 @@
       "buttonType": "SIMPLE",
       "buttonVariant": "filled",
       "id": "groupButtone9sqf6f3d6",
-      "index": 4,
+      "index": 3,
       "isDisabled": false,
       "isSeparator": false,
       "isVisible": true,
@@ -149,22 +143,6 @@
       "onClick": "{{showModal(Edit_landlord_lease.name);}}",
       "placement": "CENTER",
       "widgetId": "qvql22m6x5"
-    },
-    "groupButtonxxm3gws2c7": {
-      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-      "buttonType": "SIMPLE",
-      "id": "groupButtonxxm3gws2c7",
-      "index": 2,
-      "isDisabled": false,
-      "isSeparator": false,
-      "isVisible": true,
-      "itemType": "BUTTON",
-      "label": "FRM",
-      "menuItems": {},
-      "onClick": "{{showModal(FRM_Model.name);}}",
-      "placement": "CENTER",
-      "variant": "filled",
-      "widgetId": "8xladtsksm"
     }
   },
   "hideCard": false,

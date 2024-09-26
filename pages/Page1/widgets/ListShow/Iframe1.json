@@ -3,7 +3,7 @@
   "borderOpacity": 100,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 523,
+  "bottomRow": 518,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "displayName": "Iframe",
   "dynamicBindingPathList": [
@@ -54,7 +54,7 @@
     "Display"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.542dc4e979f061c70c19af83e2460c35.svg",
-  "topRow": 144,
+  "topRow": 139,
   "type": "IFRAME_WIDGET",
   "version": 1,
   "widgetId": "v4pdgktrbf",

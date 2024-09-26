@@ -16,6 +16,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "hideCard": false,
   "iconSVG": "https://appcdn.appsmith.com/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
   "isDefaultClickDisabled": true,
@@ -38,7 +43,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{closeModal(Modal2.name);}}",
+  "onClick": "{{closeModal(Remove_household.name);}}",
   "originalBottomRow": 54,
   "originalTopRow": 50,
   "parentId": "o8bgvc3bmu",

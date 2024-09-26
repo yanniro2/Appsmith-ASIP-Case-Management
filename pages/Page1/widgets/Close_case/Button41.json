@@ -16,6 +16,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "hideCard": false,
   "iconSVG": "https://appcdn.appsmith.com/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
   "isDefaultClickDisabled": true,
@@ -38,7 +43,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{closeModal(Modal4.name);}}",
+  "onClick": "{{closeModal(Close_case.name);}}",
   "originalBottomRow": 22,
   "originalTopRow": 18,
   "parentId": "0dq9o6nhok",
