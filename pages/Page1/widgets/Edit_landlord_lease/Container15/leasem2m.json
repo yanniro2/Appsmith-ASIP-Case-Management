@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignWidget": "LEFT",
   "animateLoading": true,
-  "bottomRow": 30,
+  "bottomRow": 28,
   "boxShadow": "none",
   "defaultSwitchState": "{{getapp.data.application[0].application.housing.lease.month2month}}",
   "displayName": "Switch",
@@ -30,7 +30,7 @@
   "key": "3lw5ngl57w",
   "label": "Lease is Month to Month",
   "labelPosition": "Left",
-  "leftColumn": 34.90909090909091,
+  "leftColumn": 35,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "mobileBottomRow": 28,
@@ -45,14 +45,14 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62.54545454545455,
+  "rightColumn": 63,
   "searchTags": [
     "boolean"
   ],
   "tags": [
     "Toggles"
   ],
-  "topRow": 26,
+  "topRow": 24,
   "type": "SWITCH_WIDGET",
   "version": 1,
   "widgetId": "wjdccus77s",

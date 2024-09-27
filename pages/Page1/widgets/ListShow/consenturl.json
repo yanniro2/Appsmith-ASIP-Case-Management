@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 107,
+  "bottomRow": 112,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -46,7 +46,7 @@
   "text": "https://app.appsmith.com/app/programconsentview/1-669ec51561e6553de16571e7?embed=true&application={{appsmith.URL.queryParams.application}}&program=HAU",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 85,
+  "topRow": 86,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
