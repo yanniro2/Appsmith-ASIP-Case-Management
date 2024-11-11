@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "vendorSearch.filterUsers",
     "name": "filterUsers",
     "pageId": "Page1",
