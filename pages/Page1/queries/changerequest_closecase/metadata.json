@@ -30,7 +30,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/v1/application/close/casechangerequest_closecase1",
+      "path": "/v1/application/close/case",
       "pluginSpecifiedTemplates": [
         {
           "value": true
