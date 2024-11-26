@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "665656f0020301211b4da135_d3de3fba-3f6d-4b53-a85f-cb0674c713fc",
-  "id": "Page1_changerequest_closecase",
+  "gitSyncId": "665656f0020301211b4da135_4f32d7c4-28b5-4ca2-8ad6-2b889c82aa63",
+  "id": "Page1_changerequest_closecase1",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,26 +11,22 @@
           "value": "application/json"
         }
       ],
-      "body": "",
+      "body": "{\n\t\"application\": {{appsmith.URL.queryParams.application}},\n\t\"type\": \"CloseCase\",\n\t\"notes\": \"{{Input9.text}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       },
       "headers": [
         {
-          "key": "app",
+          "key": "appid",
           "value": "{{appsmith.URL.queryParams.application}}"
-        },
-        {
-          "key": "notes",
-          "value": "{{Input9.text}}"
         }
       ],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/v1/application/close/casechangerequest_closecase1",
+      "path": "/v1/219744d4-593f-4f54-9cbb-f6efd3eb713e",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -50,11 +46,14 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "headers[1].value"
+        "key": "headers[0].value"
+      },
+      {
+        "key": "body"
       }
     ],
     "executeOnLoad": false,
-    "name": "changerequest_closecase",
+    "name": "changerequest_closecase1",
     "pageId": "Page1",
     "userSetOnLoad": false
   }
