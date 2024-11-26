@@ -27,7 +27,7 @@
           "value": "{{Input9.text}}"
         }
       ],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
       "path": "/v1/application/close/case",
