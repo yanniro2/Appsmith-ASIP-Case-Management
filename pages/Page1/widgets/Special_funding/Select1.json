@@ -69,7 +69,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Utilities\",\n    \"code\": \"Utilities\"\n  },\n\t{\n\t \"name\": \"SFCounty\",\n\t \"code\": \"SFCounty\"\n\t},\n\t{\n\t\"name\": \"Late Fee\",\n\t\"code\": \"Late Fee\"\n\t}\n]",
+  "sourceData": "[\n  {\n    \"name\": \"Utilities\",\n    \"code\": \"Utilities\"\n  },\n\t{\n\t \"name\": \"SFCounty\",\n\t \"code\": \"SFCounty\"\n\t},\n\t{\n\t\"name\": \"Late Fee\",\n\t\"code\": \"Late Fee\"\n\t},\n\t{\n\t\"name\": \"Other\",\n\t\"code\": \"Other\"\n\t}\n]",
   "tags": [
     "Suggested",
     "Select"

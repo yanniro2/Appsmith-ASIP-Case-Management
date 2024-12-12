@@ -4,7 +4,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 62,
+  "bottomRow": 63,
   "boxShadow": "none",
   "decimals": 2,
   "defaultCurrencyCode": "USD",
@@ -51,8 +51,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 63,
-  "originalTopRow": 56,
+  "originalBottomRow": 62,
+  "originalTopRow": 55,
   "parentColumnSpace": 9.28125,
   "parentId": "ssi90iwdj1",
   "parentRowSpace": 10,
@@ -69,7 +69,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.b14e0307b1b312b9e9ca9580d118af39.svg",
-  "topRow": 55,
+  "topRow": 56,
   "type": "CURRENCY_INPUT_WIDGET",
   "version": 1,
   "widgetId": "gulgcbitbv",
