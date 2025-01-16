@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"application\": {{appsmith.URL.queryParams.application}},\n\t\"type\": \"CloseCase\",\n\t\"notes\": \"{{Input9.text}}\"\n}",
+      "body": "",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
